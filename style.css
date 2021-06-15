@@ -1,0 +1,376 @@
+h1 h2 h3 h4 h5 h6{font-family: 'Spartan', sans-serif;}
+body p {font-family: 'Spartan', sans-serif;}
+
+.logo{
+    max-width: 80px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.nav-color{
+    background-color: #e0e0e0;
+    color: black;
+    padding: 0;
+}
+.costom-list ul li{
+    padding: 10px 15px;
+}
+.costom-list ul li a{
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+.costom-btn{
+        /* margin-right: 100px; */
+        background-color: #ffffff;
+        color: blue;
+        padding: 11px 30px;
+        border-radius: 32px;
+        border: 1px solid #ffffff;
+        position: relative;
+        left:50px
+}
+.costom-list{
+    margin-left: 270px;
+}
+.praymari-menu li a:hover{
+    color: blue;
+}
+ 
+.praymari-menu li a{
+    position: relative;
+}
+.praymari-menu li a::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 200%;
+    width: 0%;
+    height: 15%;
+    background-color: blue;
+     color: blue;
+    transition: .5s;
+}
+.praymari-menu li a:hover::after{
+    width: 118%;
+    color: blue;
+}
+.hover-active{
+    position: relative;
+}
+.praymari-menu li a.hover-active::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 200%;
+    width:63%;
+    height: 15%;
+    background-color: blue;
+    display: block;
+    transition: .5s;
+    color: blue;
+
+}
+
+/* DropDrown css */
+
+
+.praymari-menu li{
+    position: relative;
+}
+.praymari-menu ul {
+	position: absolute;
+	top: 130%;
+	left: 0;
+	width: 200px;
+	background: #ffffff;
+	padding: 13px;
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	visibility: hidden;
+	transition: .6s 
+	
+}
+.praymari-menu ul li{
+    background-color: blue;
+    list-style: none;
+    display: block;
+}
+.praymari-menu ul li a{
+    text-decoration: none;
+    color: white;
+   
+}
+.praymari-menu li{
+    position: relative;
+}
+.praymari-menu li:hover ul{
+    position: absolute;
+    top: 130%;
+    left:0;
+    width: 220px;
+    background: #ffffff;
+    padding: 13px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    visibility: visible;
+     
+}
+.praymari-menu ul li a::after{
+    display: none;
+}
+
+
+/*----- slider css----- */
+
+
+.text{}
+.text h1{
+    font-weight: 500;
+    font-size: 48px;
+}
+.text p{}
+.btn-primary{
+    padding: 11px 30px;
+    border-radius: 32px;
+}
+.img-hidden{
+    overflow: hidden;
+}
+.slider-img {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: -152px;
+    left: 58px;
+}
+.slider-img img{
+    height: 100%;
+    width: 100%;
+}
+.icon{
+    position: relative;
+}
+
+.aro{
+    width: 70px;
+	height: 70px;
+	background-color: blue;
+    color: #ffffff;
+	border-radius: 50%;
+	position: absolute;
+	left: 1130px;
+	top: -318px;
+}
+.fas.fa-chevron-up {
+	position: relative;
+	top: 11px;
+	left: 16px;
+	font-size: 45px;
+}
+
+
+
+/* service */
+
+.service-title span{
+    color: #5f82ef;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.service-title h2 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.service-title h2::after{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #0d6efd;
+}
+.service-title p {
+    font-size: 16px;
+    color: #606060;
+}
+
+.service-descover {
+	background: #dfdfdf;
+	padding: 30px;
+	margin-top: 20px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+.service-descover h3{
+    font-size: 19px;
+    line-height: 29px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.service-icon {
+    height: 70px;
+    width: 70px;
+    background: #3763eb;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 50% 50% 50% 0;
+    margin-bottom: 25px;
+    position: relative;
+    transition: 0.5s;
+}
+
+.service-icon::before{
+    content: "";
+    position: absolute;
+    top: 115%;
+    left: 0;
+    height: 3px;
+    width: 30px;
+    background: #3763eb;
+    transition: 0.5s;
+}
+
+.service-icon i{}
+
+.service-desc p{
+    font-size: 15px;
+    color: #606060;
+    transition: 0.5s;
+}
+
+.bg-image{
+    position: relative;
+    z-index: 1;
+}
+.service-background {
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	top: 119px;
+	left: -43px;
+	z-index: -1;
+}
+
+.service-background img{
+    width: 100%;
+    height: 100%;
+}
+
+.service-descover:hover {
+    background: #3763eb;
+}
+
+.service-descover:hover h3{
+    color: #fff;
+}
+.service-descover:hover .service-icon{
+    background: #fff;
+    color: #3763eb;
+}
+
+.service-descover:hover p{
+    color: #fff;
+}
+
+.service-descover:hover .service-icon::before{
+    background: #fff;
+    width: 60px;
+}
+
+/* about-section */
+
+.about {
+	background-image: url("./photo/video-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80vh;
+	background-color: rgba(9, 28, 48, 0.9);
+	background-blend-mode: overlay;
+	margin-top: 50px;
+}
+
+.about-text h2::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #0d6efd;
+}
+.about-text p{ 
+
+}
+.underline {
+	background: #fff;
+	width: 50px;
+	height: 2px;
+	position: relative;
+	top: 0px;
+	left: 538px;
+	margin-bottom: 10px;
+}
+.about-btn {
+	background: #fff;
+	color: #3763eb;
+	font-size: 20px;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	position: relative;
+	top: 0;
+	left: 520px;
+}
+.btnbtn{
+    margin-top: 140px;
+}
+
+.about-btn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    border: 5px double #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: animated 2s ease-in-out infinite;
+}
+@keyframes animated {
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    25%{
+        transform: scale(1.5);
+        opacity: .8;
+    }
+    50%{
+        transform: scale(2);
+        opacity: .4;
+    }
+    75%{
+        transform: scale(2.5);
+        opacity: .1;
+    }
+
+    100%{
+        transform: scale(3);
+        opacity: 0;
+    }
+}
